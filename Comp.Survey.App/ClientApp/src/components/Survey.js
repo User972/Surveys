@@ -18,6 +18,7 @@ export class Survey extends Component {
         var items = this.state.compUserSurveyDetails.filter(item => item.SelectedOptionId !== optionId);
         if (e.target.checked) {
             items.push({
+                //TODO : Remove this field as it is a placeholder in case some notes or useful information needs to be sent across.
                 "CompUserSurvey": "12",
                 "SurveyQuestionId": questionId,
                 "SelectedOptionId": optionId,
@@ -76,7 +77,7 @@ export class Survey extends Component {
                                             {question.questionOptions.map(option =>
                                                 <div className="input-row" key={option.id}>
                                                     <input type="radio" name={option.id} value={option.id} onChange={(e) => self.onQuestionOptionChanged(e, question.id, option.id, option.text)} />
-                                                    <label htmlFor={option.id}>{option.text}</label>
+                                                    <label htmlFor={option.id} className="p-2">{option.text}</label>
                                                 </div>
                                             )}
                                         </div>
