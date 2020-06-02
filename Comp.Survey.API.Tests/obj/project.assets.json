@@ -9744,11 +9744,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\geeta\\compass\\Comp.Survey.API.Tests\\Comp.Survey.API.Tests.csproj",
+      "projectUniqueName": "C:\\972\\Surveys\\Surveys\\Comp.Survey.API.Tests\\Comp.Survey.API.Tests.csproj",
       "projectName": "Comp.Survey.API.Tests",
-      "projectPath": "C:\\geeta\\compass\\Comp.Survey.API.Tests\\Comp.Survey.API.Tests.csproj",
+      "projectPath": "C:\\972\\Surveys\\Surveys\\Comp.Survey.API.Tests\\Comp.Survey.API.Tests.csproj",
       "packagesPath": "C:\\Users\\Haylr Dev\\.nuget\\packages\\",
-      "outputPath": "C:\\geeta\\compass\\Comp.Survey.API.Tests\\obj\\",
+      "outputPath": "C:\\972\\Surveys\\Surveys\\Comp.Survey.API.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -9768,11 +9768,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\geeta\\compass\\Comp.Survey.App\\Comp.Survey.App.csproj": {
-              "projectPath": "C:\\geeta\\compass\\Comp.Survey.App\\Comp.Survey.App.csproj"
+            "C:\\972\\Surveys\\Surveys\\Comp.Survey.App\\Comp.Survey.App.csproj": {
+              "projectPath": "C:\\972\\Surveys\\Surveys\\Comp.Survey.App\\Comp.Survey.App.csproj"
             },
-            "C:\\geeta\\compass\\Comp.Survey.Core\\Comp.Survey.Core.csproj": {
-              "projectPath": "C:\\geeta\\compass\\Comp.Survey.Core\\Comp.Survey.Core.csproj"
+            "C:\\972\\Surveys\\Surveys\\Comp.Survey.Core\\Comp.Survey.Core.csproj": {
+              "projectPath": "C:\\972\\Surveys\\Surveys\\Comp.Survey.Core\\Comp.Survey.Core.csproj"
             }
           }
         }
