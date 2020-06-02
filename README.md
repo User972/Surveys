@@ -16,3 +16,6 @@ To make this product go high in quality, we would need the following things impl
 * Based on the project structure, a doc7ument DB would make a good choice as well - CosmosDB anyone ?
 
 We are using a fixed user (well, fixed User ID) for this POC.
+
+## Swagger 
+Swagger has been implemented to go through the available APIs. Please visit https://localhost:44369/swagger/index.html to have a look. Make sure you change the base URL to the correct one.
