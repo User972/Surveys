@@ -1,0 +1,16 @@
+C:\geeta\compass\RefactorThis.Core\bin\Debug\netcoreapp3.1\Comp.Survey.Core.deps.json
+C:\geeta\compass\RefactorThis.Core\bin\Debug\netcoreapp3.1\Comp.Survey.Core.dll
+C:\geeta\compass\RefactorThis.Core\bin\Debug\netcoreapp3.1\Comp.Survey.Core.pdb
+C:\geeta\compass\RefactorThis.Core\obj\Debug\netcoreapp3.1\Comp.Survey.Core.AssemblyInfoInputs.cache
+C:\geeta\compass\RefactorThis.Core\obj\Debug\netcoreapp3.1\Comp.Survey.Core.AssemblyInfo.cs
+C:\geeta\compass\RefactorThis.Core\obj\Debug\netcoreapp3.1\Comp.Survey.Core.dll
+C:\geeta\compass\RefactorThis.Core\obj\Debug\netcoreapp3.1\Comp.Survey.Core.pdb
+C:\geeta\compass\RefactorThis.Core\obj\Debug\netcoreapp3.1\Comp.Survey.Core.csprojAssemblyReference.cache
+C:\geeta\compass\Comp.Survey.Core\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\geeta\compass\Comp.Survey.Core\bin\Debug\netcoreapp3.1\Comp.Survey.Core.deps.json
+C:\geeta\compass\Comp.Survey.Core\bin\Debug\netcoreapp3.1\Comp.Survey.Core.dll
+C:\geeta\compass\Comp.Survey.Core\bin\Debug\netcoreapp3.1\Comp.Survey.Core.pdb
+C:\geeta\compass\Comp.Survey.Core\obj\Debug\netcoreapp3.1\Comp.Survey.Core.AssemblyInfoInputs.cache
+C:\geeta\compass\Comp.Survey.Core\obj\Debug\netcoreapp3.1\Comp.Survey.Core.AssemblyInfo.cs
+C:\geeta\compass\Comp.Survey.Core\obj\Debug\netcoreapp3.1\Comp.Survey.Core.dll
+C:\geeta\compass\Comp.Survey.Core\obj\Debug\netcoreapp3.1\Comp.Survey.Core.pdb

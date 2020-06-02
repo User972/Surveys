@@ -1,0 +1,22 @@
+C:\geeta\RefactorThis - Original\RefactorThis.Infrastructure\bin\Debug\netcoreapp3.1\RefactorThis.Infrastructure.deps.json
+C:\geeta\RefactorThis - Original\RefactorThis.Infrastructure\bin\Debug\netcoreapp3.1\RefactorThis.Infrastructure.dll
+C:\geeta\RefactorThis - Original\RefactorThis.Infrastructure\bin\Debug\netcoreapp3.1\RefactorThis.Infrastructure.pdb
+C:\geeta\RefactorThis - Original\RefactorThis.Infrastructure\bin\Debug\netcoreapp3.1\RefactorThis.Core.dll
+C:\geeta\RefactorThis - Original\RefactorThis.Infrastructure\bin\Debug\netcoreapp3.1\RefactorThis.Core.pdb
+C:\geeta\RefactorThis - Original\RefactorThis.Infrastructure\obj\Debug\netcoreapp3.1\RefactorThis.Infrastructure.csprojAssemblyReference.cache
+C:\geeta\RefactorThis - Original\RefactorThis.Infrastructure\obj\Debug\netcoreapp3.1\RefactorThis.Infrastructure.AssemblyInfoInputs.cache
+C:\geeta\RefactorThis - Original\RefactorThis.Infrastructure\obj\Debug\netcoreapp3.1\RefactorThis.Infrastructure.AssemblyInfo.cs
+C:\geeta\RefactorThis - Original\RefactorThis.Infrastructure\obj\Debug\netcoreapp3.1\RefactorThis.Infrastructure.csproj.CopyComplete
+C:\geeta\RefactorThis - Original\RefactorThis.Infrastructure\obj\Debug\netcoreapp3.1\RefactorThis.Infrastructure.dll
+C:\geeta\RefactorThis - Original\RefactorThis.Infrastructure\obj\Debug\netcoreapp3.1\RefactorThis.Infrastructure.pdb
+C:\geeta\compass\RefactorThis.Infrastructure\bin\Debug\netcoreapp3.1\RefactorThis.Infrastructure.deps.json
+C:\geeta\compass\RefactorThis.Infrastructure\bin\Debug\netcoreapp3.1\RefactorThis.Infrastructure.dll
+C:\geeta\compass\RefactorThis.Infrastructure\bin\Debug\netcoreapp3.1\RefactorThis.Infrastructure.pdb
+C:\geeta\compass\RefactorThis.Infrastructure\bin\Debug\netcoreapp3.1\RefactorThis.Core.dll
+C:\geeta\compass\RefactorThis.Infrastructure\bin\Debug\netcoreapp3.1\RefactorThis.Core.pdb
+C:\geeta\compass\RefactorThis.Infrastructure\obj\Debug\netcoreapp3.1\RefactorThis.Infrastructure.csprojAssemblyReference.cache
+C:\geeta\compass\RefactorThis.Infrastructure\obj\Debug\netcoreapp3.1\RefactorThis.Infrastructure.AssemblyInfoInputs.cache
+C:\geeta\compass\RefactorThis.Infrastructure\obj\Debug\netcoreapp3.1\RefactorThis.Infrastructure.AssemblyInfo.cs
+C:\geeta\compass\RefactorThis.Infrastructure\obj\Debug\netcoreapp3.1\RefactorThis.Infrastructure.csproj.CopyComplete
+C:\geeta\compass\RefactorThis.Infrastructure\obj\Debug\netcoreapp3.1\RefactorThis.Infrastructure.dll
+C:\geeta\compass\RefactorThis.Infrastructure\obj\Debug\netcoreapp3.1\RefactorThis.Infrastructure.pdb

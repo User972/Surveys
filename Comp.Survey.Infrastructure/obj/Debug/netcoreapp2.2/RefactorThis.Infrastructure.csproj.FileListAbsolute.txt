@@ -1,0 +1,11 @@
+C:\geeta\RefactorThis - Original\RefactorThis.Infrastructure\bin\Debug\netcoreapp2.2\RefactorThis.Infrastructure.deps.json
+C:\geeta\RefactorThis - Original\RefactorThis.Infrastructure\bin\Debug\netcoreapp2.2\RefactorThis.Infrastructure.dll
+C:\geeta\RefactorThis - Original\RefactorThis.Infrastructure\bin\Debug\netcoreapp2.2\RefactorThis.Infrastructure.pdb
+C:\geeta\RefactorThis - Original\RefactorThis.Infrastructure\bin\Debug\netcoreapp2.2\RefactorThis.Core.dll
+C:\geeta\RefactorThis - Original\RefactorThis.Infrastructure\bin\Debug\netcoreapp2.2\RefactorThis.Core.pdb
+C:\geeta\RefactorThis - Original\RefactorThis.Infrastructure\obj\Debug\netcoreapp2.2\RefactorThis.Infrastructure.csprojAssemblyReference.cache
+C:\geeta\RefactorThis - Original\RefactorThis.Infrastructure\obj\Debug\netcoreapp2.2\RefactorThis.Infrastructure.AssemblyInfoInputs.cache
+C:\geeta\RefactorThis - Original\RefactorThis.Infrastructure\obj\Debug\netcoreapp2.2\RefactorThis.Infrastructure.AssemblyInfo.cs
+C:\geeta\RefactorThis - Original\RefactorThis.Infrastructure\obj\Debug\netcoreapp2.2\RefactorThis.Infrastructure.csproj.CopyComplete
+C:\geeta\RefactorThis - Original\RefactorThis.Infrastructure\obj\Debug\netcoreapp2.2\RefactorThis.Infrastructure.dll
+C:\geeta\RefactorThis - Original\RefactorThis.Infrastructure\obj\Debug\netcoreapp2.2\RefactorThis.Infrastructure.pdb

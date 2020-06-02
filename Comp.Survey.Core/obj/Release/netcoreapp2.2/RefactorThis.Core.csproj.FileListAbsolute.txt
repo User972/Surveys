@@ -1,0 +1,8 @@
+C:\geeta\RefactorThis - Original\RefactorThis.Core\bin\Release\netcoreapp2.2\RefactorThis.Core.deps.json
+C:\geeta\RefactorThis - Original\RefactorThis.Core\bin\Release\netcoreapp2.2\RefactorThis.Core.dll
+C:\geeta\RefactorThis - Original\RefactorThis.Core\bin\Release\netcoreapp2.2\RefactorThis.Core.pdb
+C:\geeta\RefactorThis - Original\RefactorThis.Core\obj\Release\netcoreapp2.2\RefactorThis.Core.csprojAssemblyReference.cache
+C:\geeta\RefactorThis - Original\RefactorThis.Core\obj\Release\netcoreapp2.2\RefactorThis.Core.AssemblyInfoInputs.cache
+C:\geeta\RefactorThis - Original\RefactorThis.Core\obj\Release\netcoreapp2.2\RefactorThis.Core.AssemblyInfo.cs
+C:\geeta\RefactorThis - Original\RefactorThis.Core\obj\Release\netcoreapp2.2\RefactorThis.Core.dll
+C:\geeta\RefactorThis - Original\RefactorThis.Core\obj\Release\netcoreapp2.2\RefactorThis.Core.pdb

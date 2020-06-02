@@ -1,0 +1,15 @@
+C:\geeta\RefactorThis - Original\RefactorThis.Core\bin\Debug\netcoreapp3.1\RefactorThis.Core.deps.json
+C:\geeta\RefactorThis - Original\RefactorThis.Core\bin\Debug\netcoreapp3.1\RefactorThis.Core.dll
+C:\geeta\RefactorThis - Original\RefactorThis.Core\bin\Debug\netcoreapp3.1\RefactorThis.Core.pdb
+C:\geeta\RefactorThis - Original\RefactorThis.Core\obj\Debug\netcoreapp3.1\RefactorThis.Core.AssemblyInfoInputs.cache
+C:\geeta\RefactorThis - Original\RefactorThis.Core\obj\Debug\netcoreapp3.1\RefactorThis.Core.AssemblyInfo.cs
+C:\geeta\RefactorThis - Original\RefactorThis.Core\obj\Debug\netcoreapp3.1\RefactorThis.Core.dll
+C:\geeta\RefactorThis - Original\RefactorThis.Core\obj\Debug\netcoreapp3.1\RefactorThis.Core.pdb
+C:\geeta\compass\RefactorThis.Core\bin\Debug\netcoreapp3.1\RefactorThis.Core.deps.json
+C:\geeta\compass\RefactorThis.Core\bin\Debug\netcoreapp3.1\RefactorThis.Core.dll
+C:\geeta\compass\RefactorThis.Core\bin\Debug\netcoreapp3.1\RefactorThis.Core.pdb
+C:\geeta\compass\RefactorThis.Core\obj\Debug\netcoreapp3.1\RefactorThis.Core.AssemblyInfoInputs.cache
+C:\geeta\compass\RefactorThis.Core\obj\Debug\netcoreapp3.1\RefactorThis.Core.AssemblyInfo.cs
+C:\geeta\compass\RefactorThis.Core\obj\Debug\netcoreapp3.1\RefactorThis.Core.dll
+C:\geeta\compass\RefactorThis.Core\obj\Debug\netcoreapp3.1\RefactorThis.Core.pdb
+C:\geeta\compass\RefactorThis.Core\obj\Debug\netcoreapp3.1\RefactorThis.Core.csprojAssemblyReference.cache
