@@ -14,3 +14,12 @@ C:\geeta\compass\Comp.Survey.Core\obj\Debug\netcoreapp3.1\Comp.Survey.Core.Assem
 C:\geeta\compass\Comp.Survey.Core\obj\Debug\netcoreapp3.1\Comp.Survey.Core.AssemblyInfo.cs
 C:\geeta\compass\Comp.Survey.Core\obj\Debug\netcoreapp3.1\Comp.Survey.Core.dll
 C:\geeta\compass\Comp.Survey.Core\obj\Debug\netcoreapp3.1\Comp.Survey.Core.pdb
+C:\972\Surveys\Surveys\Comp.Survey.Core\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\972\Surveys\Surveys\Comp.Survey.Core\bin\Debug\netcoreapp3.1\Comp.Survey.Core.deps.json
+C:\972\Surveys\Surveys\Comp.Survey.Core\bin\Debug\netcoreapp3.1\Comp.Survey.Core.dll
+C:\972\Surveys\Surveys\Comp.Survey.Core\bin\Debug\netcoreapp3.1\Comp.Survey.Core.pdb
+C:\972\Surveys\Surveys\Comp.Survey.Core\obj\Debug\netcoreapp3.1\Comp.Survey.Core.csprojAssemblyReference.cache
+C:\972\Surveys\Surveys\Comp.Survey.Core\obj\Debug\netcoreapp3.1\Comp.Survey.Core.AssemblyInfoInputs.cache
+C:\972\Surveys\Surveys\Comp.Survey.Core\obj\Debug\netcoreapp3.1\Comp.Survey.Core.AssemblyInfo.cs
+C:\972\Surveys\Surveys\Comp.Survey.Core\obj\Debug\netcoreapp3.1\Comp.Survey.Core.dll
+C:\972\Surveys\Surveys\Comp.Survey.Core\obj\Debug\netcoreapp3.1\Comp.Survey.Core.pdb

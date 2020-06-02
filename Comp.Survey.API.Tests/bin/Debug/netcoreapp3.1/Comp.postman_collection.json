@@ -1,0 +1,274 @@
+{
+	"info": {
+		"_postman_id": "17c57db4-edd7-4e4f-aaf2-666ca23a9ef7",
+		"name": "Comp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All Surveys",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/surveys",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"surveys"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Survey",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Survey 2\"\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44369/surveys",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"surveys"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Questions for Survey",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44369/surveys/5849b0e7-87b7-4f12-ac05-101a325c85a8/questions",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"surveys",
+						"5849b0e7-87b7-4f12-ac05-101a325c85a8",
+						"questions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Question",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"createdBy\": \"Elisabeth Winters\",\n    \"createdDateTime\": \"Fri, 22 May 2020 01:11:00 GMT\",\n    \"title\": \"How many astronauts landed on the moon?\",\n    \"subTitle\": \"\",\n    \"questionType\": 3\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44369/surveys/5849b0e7-87b7-4f12-ac05-101a325c85a8/questions",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"surveys",
+						"5849b0e7-87b7-4f12-ac05-101a325c85a8",
+						"questions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Question",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44369/surveys/5849b0e7-87b7-4f12-ac05-101a325c85a8/questions/0364f965-6f70-4c21-b8f1-8a21bdfc2b00",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"surveys",
+						"5849b0e7-87b7-4f12-ac05-101a325c85a8",
+						"questions",
+						"0364f965-6f70-4c21-b8f1-8a21bdfc2b00"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Options for a Question",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44369/surveys/5849b0e7-87b7-4f12-ac05-101a325c85a8/questions/4e93a219-458a-4ff9-a6de-969d5c8eff14/options",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"surveys",
+						"5849b0e7-87b7-4f12-ac05-101a325c85a8",
+						"questions",
+						"4e93a219-458a-4ff9-a6de-969d5c8eff14",
+						"options"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Option for Survey",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"text\": \"One\"\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44369/surveys/5849b0e7-87b7-4f12-ac05-101a325c85a8/questions/75e3c1fa-ae10-41a2-9a92-d776853a6ca5/options",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"surveys",
+						"5849b0e7-87b7-4f12-ac05-101a325c85a8",
+						"questions",
+						"75e3c1fa-ae10-41a2-9a92-d776853a6ca5",
+						"options"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Options for a Question Copy Copy",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"text\": \"18\"\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44369/surveys/5849b0e7-87b7-4f12-ac05-101a325c85a8/questions/4e93a219-458a-4ff9-a6de-969d5c8eff14/options/9b88ab19-ec69-49fa-9b56-e7b8959ff59e",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"surveys",
+						"5849b0e7-87b7-4f12-ac05-101a325c85a8",
+						"questions",
+						"4e93a219-458a-4ff9-a6de-969d5c8eff14",
+						"options",
+						"9b88ab19-ec69-49fa-9b56-e7b8959ff59e"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Submit Survey",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"SubmissionTitle\": \"test title submission\",\n    \"CompUserId\": \"b719e6ad-d0a0-403c-828b-9487259e01cb\",\n    \"CompUserSurveyDetails\": [\n        {\n            \"CompUserSurvey\": \"11\",\n            \"SurveyQuestionId\": \"4e93a219-458a-4ff9-a6de-969d5c8eff14\",\n            \"SelectedOptionId\": \"5bd15540-88d7-4a06-a6d8-2c2fb2520309\",\n            \"SelectedOptionValue\": \"3\"\n        },\n        {\n            \"CompUserSurvey\": \"12\",\n            \"SurveyQuestionId\": \"75e3c1fa-ae10-41a2-9a92-d776853a6ca5\",\n            \"SelectedOptionId\": \"6bd27256-f4c2-4128-a3d5-11c1277caaaa\",\n            \"SelectedOptionValue\": \"One\"\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44369/surveys/5849b0e7-87b7-4f12-ac05-101a325c85a8/submission",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"surveys",
+						"5849b0e7-87b7-4f12-ac05-101a325c85a8",
+						"submission"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
