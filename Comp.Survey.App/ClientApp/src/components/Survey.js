@@ -18,7 +18,6 @@ export class Survey extends Component {
         var items = this.state.compUserSurveyDetails.filter(item => item.SelectedOptionId !== optionId);
         if (e.target.checked) {
             items.push({
-                //TODO : Remove this field as it is a placeholder in case some notes or useful information needs to be sent across.
                 "CompUserSurvey": "12",
                 "SurveyQuestionId": questionId,
                 "SelectedOptionId": optionId,
@@ -29,7 +28,7 @@ export class Survey extends Component {
     }
 
     async handleSubmit(self) {
-        debugger;
+        
         var objectData = {
             "SubmissionTitle": self.state.name,
             "CompUserId": "b719e6ad-d0a0-403c-828b-9487259e01cb", // Fixed as of now
