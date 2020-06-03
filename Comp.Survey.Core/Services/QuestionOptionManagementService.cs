@@ -27,7 +27,8 @@ namespace Comp.Survey.Core.Services
                 var option = Mappings.Mapper.Map<QuestionOption>(optionDto);
                 option.SurveyQuestionId = questionId;
                 option.Id = Guid.NewGuid();
-                await _optionRepository.Create(option);
+                var persistedEntity = await _optionRepository.Create(option);
+                optionDto.Id = persistedEntity.Id;
                 return optionDto;
             }
             catch (Exception e)
@@ -64,7 +65,7 @@ namespace Comp.Survey.Core.Services
 
         public async Task<IList<IQuestionOption>> GetOptionsByQuestionId(Guid questionId)
         {
-            var option = await _optionRepository.List(o=>o.SurveyQuestionId == questionId);
+            var option = await _optionRepository.List(o => o.SurveyQuestionId == questionId);
             return Mappings.Mapper.Map<IList<IQuestionOption>>(option);
         }
 
