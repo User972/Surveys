@@ -221,28 +221,24 @@ namespace Comp.Survey.API.Tests.Controllers
             Assert.Equal(survey.Id, _matchingGuid);
         }
 
-        [Theory]
-        [InlineData("name", null, 10, 300)]
-        [InlineData("name", "description", 10, 300)]
-        public void UpdateAsync_WhenModelIsValid_And_MatchingSurveyNotFound_ReturnsNotFound(string name, string description, decimal price, decimal deliveryPrice)
+        [Fact]
+        public void UpdateAsync_WhenModelIsValid_And_MatchingSurveyNotFound_ReturnsNotFound()
         {
             var response = _controller.UpdateAsync(_nonMatchingGuid, new App.Models.Survey
             {
-                Name = name
+                Name = _surveyName
             }).Result;
 
             _surveyService.Verify(repo => repo.UpdateExistingSurvey(_nonMatchingGuid, It.IsAny<App.Models.Survey>()), Times.Exactly(1));
             Assert.IsType<NotFoundResult>(response);
         }
 
-        [Theory]
-        [InlineData("name", null, 10, 300)]
-        [InlineData("name", "description", 10, 300)]
-        public void UpdateAsync_WhenModelIsValid_And_MatchingSurveyFound_ReturnsOk(string name, string description, decimal price, decimal deliveryPrice)
+        [Fact]
+        public void UpdateAsync_WhenModelIsValid_And_MatchingSurveyFound_ReturnsOk()
         {
             var response = _controller.UpdateAsync(_matchingGuid, new App.Models.Survey
             {
-                Name = name
+                Name = _surveyName
             }).Result;
 
             _surveyService.Verify(repo => repo.UpdateExistingSurvey(_matchingGuid, It.IsAny<App.Models.Survey>()), Times.Exactly(1));
