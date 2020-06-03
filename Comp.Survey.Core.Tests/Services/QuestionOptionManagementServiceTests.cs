@@ -117,7 +117,7 @@ namespace Comp.Survey.Core.Tests.Services
         }
 
         [Fact]
-        public void GetOptionsByQuestionId_CallsRepository_ReturnsFilteredSurveyDtoList()
+        public void GetOptionsByQuestionId_CallsRepository_ReturnsFilteredDtoList()
         {
             var result = _svc.GetOptionsByQuestionId(_questionId).Result;
 
