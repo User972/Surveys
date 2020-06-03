@@ -42,7 +42,7 @@ export class SurveyCollection extends Component {
 
         return (
             <div>
-                <h1 id="tabelLabel" >Comp Surveys</h1>
+                <h1 id="tabelLabel" >Compass Surveys</h1>
                 <br />
                 {contents}
             </div>

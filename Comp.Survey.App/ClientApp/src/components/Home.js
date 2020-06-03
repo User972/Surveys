@@ -6,7 +6,7 @@ export class Home extends Component {
     render() {
         return (
             <div>
-                <h1>Hello, Comp users!</h1>
+                <h1>Hello, Compass users!</h1>
                 <p>Welcome to your new Survey App.</p>
                 <ul>
                     <li>Use API to do basic CRUD operations on entities : Survey, Questions, Options, Users etc.</li>
