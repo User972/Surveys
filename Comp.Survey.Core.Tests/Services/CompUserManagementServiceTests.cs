@@ -67,7 +67,7 @@ namespace Comp.Survey.Core.Tests.Services
         }
 
         [Fact]
-        public void CreateNewOption_WhenPassedDto__CallsRepository_ReturnsUpdatedDto()
+        public void CreateNewCompUser_WhenPassedDto__CallsRepository_ReturnsUpdatedDto()
         {
             var dto = Mock.Of<ICompUser>();
             var result = _svc.CreateNewCompUser(dto).Result;

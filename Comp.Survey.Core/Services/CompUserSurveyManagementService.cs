@@ -27,8 +27,8 @@ namespace Comp.Survey.Core.Services
             try
             {
                 var survey = Mappings.Mapper.Map<CompUserSurvey>(surveyDto);
-                await _compUserSurveyRepository.Create(survey);
-                surveyDto.Id = survey.Id;
+               var persistedEntity = await _compUserSurveyRepository.Create(survey);
+                surveyDto.Id = persistedEntity.Id;
                 return surveyDto;
             }
             catch (Exception e)
