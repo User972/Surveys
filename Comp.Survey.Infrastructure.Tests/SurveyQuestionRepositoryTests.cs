@@ -114,6 +114,20 @@ namespace Comp.Survey.Infrastructure.Tests
             }
         }
 
+        [Fact]
+        public async Task ListWithOptions_WhenExpressionPassed_ReturnsFilteredSurveyQuestions()
+        {
+            using (var context = new ApplicationDataContext(_options))
+            {
+                FeedDataContext(context, MockSurveys.AllSurveys);
+
+                var repository = new SurveyQuestionRepository(context);
+                var surveys = await repository.ListWithOptions(MockSurveys.XiomiGuid);
+
+                Assert.NotNull(surveys);
+                Assert.Equal(2, surveys.Count);
+            }
+        }
         private static void FeedDataContext(ApplicationDataContext context, IEnumerable<Core.Entities.Survey> surveys)
         {
             context.Surveys.AddRange(surveys);
