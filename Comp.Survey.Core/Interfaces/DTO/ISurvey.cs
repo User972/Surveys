@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Comp.Survey.Core.Interfaces.DTO
 {
@@ -7,5 +8,7 @@ namespace Comp.Survey.Core.Interfaces.DTO
         Guid Id { get; set; }
 
         string Name { get; set; }
+
+        IList<ISurveyQuestion> SurveyQuestions { get; set; }
     }
 }

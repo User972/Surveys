@@ -201,14 +201,12 @@ namespace Comp.Survey.API.Tests.Controllers
             Assert.Equal(option.Id, _matchingOptionGuid);
         }
 
-        [Theory]
-        [InlineData("name", null, 10, 300)]
-        [InlineData("name", "description", 10, 300)]
-        public void CreateAsync_WhenModelIsValid_ReturnsOk(string name, string description, decimal price, decimal deliveryPrice)
+        [Fact]
+        public void CreateAsync_WhenModelIsValid_ReturnsOk()
         {
             var response = _controller.CreateAsync(new App.Models.Survey
             {
-                Name = name
+                Name = _surveyName
             }).Result;
 
             _surveyService.Verify(repo => repo.CreateNewSurvey(It.IsAny<App.Models.Survey>()), Times.Exactly(1));
