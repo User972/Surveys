@@ -1,18 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using Comp.Survey.Core.Interfaces.DTO;
 using Comp.Survey.Core.Interfaces.Services;
 using Comp.Survey.Core.Utilities;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Serilog;
 
 namespace Comp.Survey.App.Controllers
 {
-    [Route("api/v2/[controller]")]
+    [Route("api/v2/surveys")]
     [ApiController]
     public class SurveysV2Controller : ControllerBase
     {
