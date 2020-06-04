@@ -43,3 +43,6 @@ To keep all the data in relational form, a very broad approach has been used her
   * Based on this, we would need to amend the responses expected from the user as it could be single answered or multiple choices.
 * Question Options are the options a user has to make choice for.
 * All IDs are being used as GUIDs rather than integer based implementations.
+
+## Create Survey
+<img src="https://github.com/User972/Surveys/blob/master/Comp.Survey.App/New-controller.png" />
