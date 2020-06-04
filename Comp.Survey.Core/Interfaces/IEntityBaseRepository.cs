@@ -19,6 +19,8 @@ namespace Comp.Survey.Core.Interfaces
 
     public interface ISurveyRepository : IEntityBaseRepository<Entities.Survey>
     {
+        Task<IReadOnlyList<Core.Entities.Survey>> ListWithQuestions(Guid surveyId);
+        Task<Core.Entities.Survey> GetWithQuestions(Guid surveyId);
     }
 
     public interface ISurveyQuestionRepository : IEntityBaseRepository<SurveyQuestion>
@@ -33,6 +35,8 @@ namespace Comp.Survey.Core.Interfaces
     }
     public interface ICompUserSurveyRepository : IEntityBaseRepository<CompUserSurvey>
     {
+        Task<IReadOnlyList<Core.Entities.CompUserSurvey>> ListWithQuestions(Guid compUserSurveyId);
+        Task<Core.Entities.CompUserSurvey> GetWithQuestions(Guid compUserSurveyId);
     }
     public interface ICompUserSurveyDetailRepository : IEntityBaseRepository<CompUserSurveyDetail>
     {

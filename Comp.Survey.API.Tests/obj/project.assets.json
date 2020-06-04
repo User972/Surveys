@@ -3205,7 +3205,7 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Comp.Survey.Core": "1.0.0",
-          "Microsoft.EntityFrameworkCore.Sqlite": "2.2.6"
+          "Microsoft.EntityFrameworkCore.Sqlite": "3.1.4"
         },
         "compile": {
           "bin/placeholder/Comp.Survey.Infrastructure.dll": {}

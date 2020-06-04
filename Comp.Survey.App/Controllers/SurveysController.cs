@@ -328,6 +328,20 @@ namespace Comp.Survey.App.Controllers
             return Ok(survey);
         }
 
+        [HttpGet]
+        [Route("{id}/submission/")]
+        [ActionName("GetSubmissionAsync")]
+        public async Task<IActionResult> GetSubmittedSurveysAsync(Guid id)
+        {
+            var surveys = await _surveySubmissionService.GetCompUserSurveysBySurveyId(id);
+            if (surveys == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(surveys);
+        }
+
         #endregion Survey Submission
 
         #endregion ACTIONS - Commands

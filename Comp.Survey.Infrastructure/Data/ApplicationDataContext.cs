@@ -9,7 +9,6 @@ namespace Comp.Survey.Infrastructure.Data
 
         public ApplicationDataContext(DbContextOptions<ApplicationDataContext> options) : base(options)
         {
-            this.Database.EnsureCreated();
         }
         
         public DbSet<Core.Entities.Survey> Surveys { get; set; }
@@ -19,6 +18,7 @@ namespace Comp.Survey.Infrastructure.Data
         public DbSet<CompUser> CompUsers { get; set; }
         public DbSet<CompUserSurvey> CompUserSurveys { get; set; }
         public DbSet<CompUserSurveyDetail> CompUserSurveyDetails { get; set; }
+        public DbSet<TestUser> TestUsers { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // SurveyQuestion

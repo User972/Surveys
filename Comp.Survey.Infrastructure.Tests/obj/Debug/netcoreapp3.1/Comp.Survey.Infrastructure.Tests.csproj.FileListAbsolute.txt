@@ -384,3 +384,4 @@ C:\972\Surveys\Surveys\Comp.Survey.Infrastructure.Tests\obj\Debug\netcoreapp3.1\
 C:\972\Surveys\Surveys\Comp.Survey.Infrastructure.Tests\obj\Debug\netcoreapp3.1\Comp.Survey.Infrastructure.Tests.dll
 C:\972\Surveys\Surveys\Comp.Survey.Infrastructure.Tests\obj\Debug\netcoreapp3.1\Comp.Survey.Infrastructure.Tests.pdb
 C:\972\Surveys\Surveys\Comp.Survey.Infrastructure.Tests\obj\Debug\netcoreapp3.1\Comp.Survey.Infrastructure.Tests.genruntimeconfig.cache
+C:\972\Surveys\Surveys\Comp.Survey.Infrastructure.Tests\bin\Debug\netcoreapp3.1\System.Text.Json.dll

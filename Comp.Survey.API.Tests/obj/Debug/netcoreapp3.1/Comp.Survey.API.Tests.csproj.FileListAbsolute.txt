@@ -315,7 +315,6 @@ C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\Microsoft.V
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\Moq.dll
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
-C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\Remotion.Linq.dll
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\Serilog.dll
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\Serilog.AspNetCore.dll
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\Serilog.Extensions.Hosting.dll
@@ -327,10 +326,8 @@ C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\Serilog.Sin
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
-C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_green.dll
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
-C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -339,7 +336,6 @@ C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\System.Comp
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
-C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\System.Interactive.Async.dll
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\xunit.abstractions.dll
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\xunit.assert.dll
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\xunit.core.dll
@@ -473,7 +469,6 @@ C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\runtimes\wi
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
-C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\runtimes\win8-arm\native\e_sqlite3.dll
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\Comp.Survey.App.dll
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\Comp.Survey.Core.dll
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\Comp.Survey.Infrastructure.dll
@@ -487,3 +482,10 @@ C:\972\Surveys\Surveys\Comp.Survey.API.Tests\obj\Debug\netcoreapp3.1\Comp.Survey
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\obj\Debug\netcoreapp3.1\Comp.Survey.API.Tests.dll
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\obj\Debug\netcoreapp3.1\Comp.Survey.API.Tests.pdb
 C:\972\Surveys\Surveys\Comp.Survey.API.Tests\obj\Debug\netcoreapp3.1\Comp.Survey.API.Tests.genruntimeconfig.cache
+C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\972\Surveys\Surveys\Comp.Survey.API.Tests\bin\Debug\netcoreapp3.1\System.Text.Json.dll

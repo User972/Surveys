@@ -58,7 +58,7 @@ namespace Comp.Survey.Core.Services
 
         public async Task<ISurvey> GetSurveyById(Guid id)
         {
-            var survey = await _surveyRepository.Get(id);
+            var survey = await _surveyRepository.GetWithQuestions(id);
             return Mappings.Mapper.Map<ISurvey>(survey);
         }
 
