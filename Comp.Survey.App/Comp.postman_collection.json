@@ -25,6 +25,26 @@
 			"response": []
 		},
 		{
+			"name": "Get Survey by Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/surveys/860b20a4-84f8-4385-bee0-f431278693bc",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"surveys",
+						"860b20a4-84f8-4385-bee0-f431278693bc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "Add Survey",
 			"request": {
 				"method": "POST",
@@ -54,6 +74,37 @@
 			"response": []
 		},
 		{
+			"name": "Add Survey V2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Survey 2\",\n    \"surveyQuestions\": [\n        {\n            \"createdBy\": \"Elisabeth Winters\",\n            \"createdDateTime\": \"Fri, 22 May 2020 01:11:00 GMT\",\n            \"title\": \"How many primary colours are there?\",\n            \"subTitle\": \"\",\n            \"questionType\": 3,\n            \"questionOptions\": [\n                {\n                    \"text\": \"One\"\n                },\n                {\n                    \"text\": \"Two\"\n                },\n                {\n                    \"text\": \"Three\"\n                }\n            ]\n        },\n        {\n            \"createdBy\": \"Geeta Sehajpal\",\n            \"createdDateTime\": \"Fri, 22 May 2020 01:11:00 GMT\",\n            \"title\": \"How many bytes are there in a Kibibyte?\",\n            \"subTitle\": \"\",\n            \"questionType\": 3,\n            \"questionOptions\": [\n                {\n                    \"text\": \"1000\"\n                },\n                {\n                    \"text\": \"1024\"\n                },\n                {\n                    \"text\": \"996\"\n                }\n            ]\n        }\n    ]\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44369/api/v2/surveys",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"api",
+						"v2",
+						"surveys"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "Get All Questions for Survey",
 			"request": {
 				"method": "GET",
@@ -65,7 +116,7 @@
 					}
 				],
 				"url": {
-					"raw": "https://localhost:44369/surveys/5849b0e7-87b7-4f12-ac05-101a325c85a8/questions",
+					"raw": "https://localhost:44369/surveys/860b20a4-84f8-4385-bee0-f431278693bc/questions",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -73,7 +124,7 @@
 					"port": "44369",
 					"path": [
 						"surveys",
-						"5849b0e7-87b7-4f12-ac05-101a325c85a8",
+						"860b20a4-84f8-4385-bee0-f431278693bc",
 						"questions"
 					]
 				}
@@ -263,6 +314,27 @@
 					"path": [
 						"surveys",
 						"5849b0e7-87b7-4f12-ac05-101a325c85a8",
+						"submission"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Submitted Surveys",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44369/surveys/860b20a4-84f8-4385-bee0-f431278693bc/submission",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44369",
+					"path": [
+						"surveys",
+						"860b20a4-84f8-4385-bee0-f431278693bc",
 						"submission"
 					]
 				}
