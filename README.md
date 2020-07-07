@@ -1,6 +1,6 @@
 # Surveys
 
-Hello, Compass users!
+Hello, Survey users!
 Welcome to your new Survey App.
 
 * Use API to do basic CRUD operations on entities : Survey, Questions, Options, Users etc.
